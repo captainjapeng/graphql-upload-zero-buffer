@@ -1,0 +1,20 @@
+{
+  "name": "graphql-upload-zero-buffer",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "author": "Jasper Agrante",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package",
+    "start": "node index.mjs",
+    "test": "node load.mjs"
+  },
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "form-data": "^4.0.0",
+    "graphql": "^16.5.0",
+    "graphql-upload": "^15.0.1",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
